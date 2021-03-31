@@ -1,0 +1,269 @@
+/*FONTS============================================================*/
+@font-face {
+  font-family: "ProximaNova";
+  src: url("/css/fonts/ProximaNova-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ProximaNova";
+  src: url("/css/fonts/ProximaNova-Light.ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ProximaNova";
+  src: url("/css/fonts/ProximaNova-Black.ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ProximaNova";
+  src: url("/css/fonts/ProximaNova-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ProximaNova";
+  src: url("/css/fonts/ProximaNova-SemiBold.ttf");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("fonts/Lato-Light.ttf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("fonts/Lato-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("fonts/Lato-Bold.ttf");
+  font-weight: 700;
+}
+
+/*=================================================================*/
+
+/*COMMON STYLES====================================================*/
+a.active.focus,
+a.active:focus,
+a.focus,
+a:active.focus,
+a:active:focus,
+a:focus,
+button.active.focus,
+button.active:focus,
+button.focus,
+button:active.focus,
+button:active:focus,
+button:focus,
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn:active:focus,
+.btn:focus {
+  outline: 0 !important;
+  outline-color: transparent !important;
+  outline-width: 0 !important;
+  outline-style: none !important;
+  -webkit-box-shadow: 0 0 0 0 rgba(0, 123, 255, 0) !important;
+  -moz-box-shadow: 0 0 0 0 rgba(0, 123, 255, 0) !important;
+  box-shadow: 0 0 0 0 rgba(0, 123, 255, 0) !important;
+}
+
+body {
+  font-family: "ProximaNova", sans-serif;
+  background: linear-gradient(180deg, #18191D 0%, #1F2227 33.33%, #363B41 100%);
+  background-repeat: no-repeat; 
+}
+/*===================================================================*/
+.header {
+  padding-top: 20px;
+  padding-bottom: 35px;
+}
+
+.header__download-btn {
+  width: 126px;
+height: 46px;
+box-sizing: border-box;
+border-radius: 12px;
+background: #D72E1F;
+color: #FFFFFF;
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 32px;
+text-align: center;
+text-transform: capitalize;
+}
+
+.header__logo-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 16px;
+}
+
+.quiz__video {
+  width: 305px;
+  height: 305px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer {
+  padding-top: 28px;
+  padding-bottom: 22px;
+  background: #10121B;
+}
+
+.footer__policy-terms-wrapper {
+  margin-top: 12.5px;
+  color: #1A77EA;
+  text-align: center;
+  font-size: 14px;
+  line-height: 17px;
+  font-family: 'Lato' !important;
+}
+
+.footer_paragraph {
+  font-family: 'Lato' !important;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  margin-top: 32px;
+  color: #FFFFFF;
+}
+
+.footer_copy {
+  font-family: 'Lato' !important;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.quiz__wrapper {
+  margin-top: 30px;
+  margin-bottom: 4px;
+}
+
+.quiz-item {
+  width: 305px;
+  height: 85px;
+  background: rgba(0, 122, 255, 0.1);
+  border-radius: 12px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.carousel-indicators {
+  top: -30%;
+}
+
+.quiz-item > p {
+  color: #FFFFFF;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.answer-btn {
+  margin-top: 12px;
+  width: 305px;
+  height: 44px;
+  background: rgba(0, 122, 255, 0.05);
+  border: 1px solid #1A77EA;
+  box-sizing: border-box;
+  border-radius: 12px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 41px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.answer-btn:active {
+  background: #1A77EA;
+}
+
+.answer-btn-wrapper {
+  margin-bottom: 40px;
+}
+
+.carousel-indicators {
+  width: 305px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel-indicators > li {
+  width: 70.93px;
+  height: 4px;
+}
+
+.carousel-indicators > .active {
+  background-color: #1A77EA !important;
+}
+
+.text-container {
+  margin-top: 50px;
+  color: rgb(128 128 128);
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 40px;
+}
+
+.text-container h2 {
+  margin: 35px 0 15px;
+  font-size: 25px;
+  line-height: 38px;
+  color: rgb(26 25 25);
+  font-weight: 400;
+}
+
+.text-container p {
+  font-size: 15px;
+}
+
+.policy-terms {
+  background: #ffffff;
+}
+
+.text-container .title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 45px;
+  color: rgb(26 25 25);
+  margin-bottom: 25px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  body {
+    height: 100vh;
+  }
+  
+}
